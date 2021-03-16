@@ -111,3 +111,156 @@ Enter n value5
 	print()
 
 
+
+
+ n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(n):
+		print(n-j,end=' ')
+	print()
+
+	
+5 4 3 2 1 
+5 4 3 2 1 
+5 4 3 2 1 
+5 4 3 2 1 
+5 4 3 2 1 
+>>> 
+>>> for i in range(n):
+	print('* ' *(i+1))
+
+	
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+>>> 
+>>> for i in range(n):
+	print('* ' *(i-1))
+
+	
+
+
+* 
+* * 
+* * * 
+>>>  for i in range(n):
+	print('* ' *(1-i))
+	
+SyntaxError: unexpected indent
+>>> 
+>>> for i in range(n):
+	print('* ' *(1-i))
+
+	
+* 
+
+
+
+
+>>>  n=int(input('Enter n value'))
+ 
+SyntaxError: unexpected indent
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	print(n-i,end=' ')
+
+	
+5 4 3 2 1 
+>>> for i in range(n):
+	print(n-i* (*),end=' ')
+	
+SyntaxError: invalid syntax
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	print('* ' *(n-i))
+
+	
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(i+1):
+		print('*',end=' ')
+	print()
+
+	
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(n):
+		print(n-j,end=' ')
+	print()
+
+	
+5 4 3 2 1 
+5 4 3 2 1 
+5 4 3 2 1 
+5 4 3 2 1 
+5 4 3 2 1 
+>>> 
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(n):
+		
+Enter n value6
+>>> print(n-i,end=' ')
+2 
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(n):
+		
+Enter n value6
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(n):
+		print(n-i,end=' ')
+	print()
+
+	
+5 5 5 5 5 
+4 4 4 4 4 
+3 3 3 3 3 
+2 2 2 2 2 
+1 1 1 1 1 
+>>> 
+>>> 
+>>>  n=int(input('Enter n value'))
+ 
+SyntaxError: unexpected indent
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(i+1):
+		print(n-j,end=' ')
+	print()
+
+	
+5 
+5 4 
+5 4 3 
+5 4 3 2 
+5 4 3 2 1 
+>>> 
+
