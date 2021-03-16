@@ -1,0 +1,92 @@
+Python 3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+>>> if i in range(3):
+	print('7  '*3)
+
+	
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    if i in range(3):
+NameError: name 'i' is not defined
+>>> n=int(input('Enter n value'))
+Enter n value3
+>>> print('7 '*n)
+7 7 7 
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value3
+>>> for i in range(n):
+	print('7 '*n)
+
+	
+7 7 7 
+7 7 7 
+7 7 7 
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(n):
+		print('7',end='')
+	print()
+
+	
+77777
+77777
+77777
+77777
+77777
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value7
+>>> for i in range(n):
+	for j in range(n):
+		print('A',end='')
+
+		
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value7
+>>> for i in range(n):
+	for j in range(n):
+		print('A',end='')
+	print()
+
+	
+AAAAAAA
+AAAAAAA
+AAAAAAA
+AAAAAAA
+AAAAAAA
+AAAAAAA
+AAAAAAA
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	symbol=str(n)+' '
+	print(symbol*n)
+
+	
+5 5 5 5 5 
+5 5 5 5 5 
+5 5 5 5 5 
+5 5 5 5 5 
+5 5 5 5 5 
+>>> 
+>>> n=int(input('Enter n value'))
+Enter n value 5
+>>> for i in range(n):
+	for j in range(n):
+		print('1',end=' ')
+	print()
+
+	
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 1 
+>>> 
