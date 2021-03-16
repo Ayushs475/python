@@ -90,3 +90,24 @@ Enter n value 5
 1 1 1 1 1 
 1 1 1 1 1 
 >>> 
+
+n=int(input('Enter n value'))
+for i in range(n):
+print((chr(65+i)+'')*n)2
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+
+
+
+
+n=int(input('Enter n value'))
+Enter n value5
+>>> for i in range(n):
+	for j in range(n):
+		print(65+i,end=' ')
+	print()
+
+
