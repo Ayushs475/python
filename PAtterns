@@ -264,3 +264,17 @@ Enter n value5
 5 4 3 2 1 
 >>> 
 
+
+n=int(input('Enter n Value'))
+Enter n Value5
+>>> for i in range(n):
+	print(' ' *(n-i-1),end=' ')
+	print('*  '* (i+1))
+
+	
+     *  
+    *  *  
+   *  *  *  
+  *  *  *  *  
+ *  *  *  *  *  
+
