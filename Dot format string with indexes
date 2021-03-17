@@ -1,0 +1,33 @@
+s=input('Enter any string')
+Enter any stringdurga
+>>> i=0
+>>> for x in s:
+	print('The character present at postive index {} is :{}'.format(i,x))
+	i=i+1
+
+	
+The character present at postive index 0 is :d
+The character present at postive index 1 is :u
+The character present at postive index 2 is :r
+The character present at postive index 3 is :g
+The character present at postive index 4 is :a
+
+
+
+Negative index:
+
+
+ S=input('Enter any string')
+Enter any stringAyush
+>>> i=0
+>>> for x in s:
+	print('The character present at postive index {} and at negative index{} is :{}'.format(i,i-len(s),x))
+	i=i+1
+
+	
+The character present at postive index 0 and at negative index-5 is :A
+The character present at postive index 1 and at negative index-4 is :y
+The character present at postive index 2 and at negative index-3 is :u
+The character present at postive index 3 and at negative index-2 is :s
+The character present at postive index 4 and at negative index-1 is :h
+>>> 
