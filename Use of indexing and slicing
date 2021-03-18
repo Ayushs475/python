@@ -1,0 +1,47 @@
+>>> s=input('Enter any string')
+Enter any stringAyush
+>>> print('In forward direction')
+In forward direction
+>>> i=0
+>>> while i<len(s):
+	print(s[i])
+	i=i+1
+
+	
+A
+y
+u
+s
+h
+>>> i=-1
+>>> while i>=-len(s):
+	print(s[i])
+	i=i-1
+
+	
+h
+s
+u
+y
+A
+>>> n=input('Enter any string value')
+Enter any string valueAyush
+>>> for x in n[: :1]:
+	print(x)
+
+	
+A
+y
+u
+s
+h
+>>> for x in n[: :-1]:
+	print(x)
+
+	
+h
+s
+u
+y
+A
+>>> 
