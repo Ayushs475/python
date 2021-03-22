@@ -1,0 +1,47 @@
+s=input('Enter any string')
+Enter any stringAyush
+>>> print(s[: :-1])
+hsuyA
+>>> r=reversed(s)
+>>> print(r)
+<reversed object at 0x000001A196C29400>
+>>> output=''.join(r)
+>>> print(output)
+hsuyA
+>>> s=input('Enter any string')
+Enter any stringAyush
+>>> i=len(s)-1
+>>> target=' '
+>>> while i>=0:
+	target=target+s[i]
+	i=i-1
+	print(target)
+
+
+
+
+s='Learning python is very easy'
+>>> l=s.split()
+>>> print(l)
+['Learning', 'python', 'is', 'very', 'easy']
+>>> l1=[]
+>>> i=len(l)-1
+>>> while i>=0:
+	l1.append(l[i])
+	i=i-1
+	print(l1)
+	output=' '.join(l1)
+	print(output)
+  
+  
+  REVERSE INTERNAL CONTENT OF EACH WORD>
+  
+  
+  s=('one two three')
+>>> l=s.split()
+>>> l1=[]
+>>> for x in l:
+	l1.append(x[: :-1])
+	print(l1)
+  output=' '.join(l1)
+  print(output)
